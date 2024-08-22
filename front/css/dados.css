@@ -1,0 +1,114 @@
+/*  */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fff;
+}
+
+/*  */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+/*  */
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/*  */
+h1 {
+    color: #0B78D0;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+/*  */
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/*  */
+h2 {
+    color: #000;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/*  */
+.insert-link {
+    color: #000;
+    /* text-decoration: none; */
+    margin-bottom: 20px;
+}
+
+/*  */
+.insert-link:hover {
+    text-decoration: underline;
+}
+
+/*  */
+.input-box {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+/*  */
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* font-size: 1rem; */
+}
+
+/*  */
+.add-button {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+/* botão para adicionar os dados */
+.btn-add {
+    background-color: #F5F5F5;
+    color: #0B78D0;
+    border: #000;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*  */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #0B78D0;
+}
+
+/*  */
+.footer-icon {
+    width: 30px;
+    height: 30px;
+}
