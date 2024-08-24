@@ -1,6 +1,6 @@
 let button = document.getElementById("handleSubmit");
  
-button.onclick = async function(e) {
+button.onclick = function(e) {
     e.preventDefault();
  
     let email = document.getElementById('email').value;  

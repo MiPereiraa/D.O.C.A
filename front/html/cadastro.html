@@ -3,77 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastre-se</title>
     <link rel="stylesheet" href="/front/css/cadastro.css">
+    <title>D.O.C.A Login</title>
 </head>
-<body>
-    <div class="container">
-        <div class="content">
-            <!-- cria os campos para adicionar os dados -->
-            <h1>Cadastre-se </h1>
-            <div class="form-group">
-                <label for="nome">Nome</label>
-                <input type="text" id="nome" name="nome">
-            </div>
-            <!-- <div class="form-group">
-                <label for="sobrenome">Sobrenome</label>
-                <input type="text" id="sobrenome" name="sobrenome">
-            </div> -->
-            <div class="form-group">
-                <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" name="telefone">
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email">
-            </div>
-            <div class="form-group">
-                <label for="senha">Senha</label>
-                <input type="password" id="senha" name="senha">
-            </div>
-            <!-- botão para realizar o cadastro -->
-            <a href="dados.html" class="register-link">Cadastrar</a>
-            <!-- <button>class="btn">Cadastrar <a href="http://127.0.0.1:5500/front/html/dados.html" class="register-link"> </a></button> -->
-        </div>
-    </div>
-    <script src="/front/javascript/cadastro.js"></script>
-</body>
+    <body>
+        <header>
+        </header>
+        <main>
+            <div class="registro">
+                <img class="" src="" alt="">
+                <h1> Crie sua conta </h1>
+                <input type="nome" placeholder="Nome" class="Nome">
+                <input type="email" placeholder="email" class="email">
+                <input type="senha" placeholder="senha" class="senha">
+                <button type="button" class="cadastro" id="handleSubmit"> cadastrar</button>
+                <p class="façaseulogin"></p>
+            </div> 
+        </main>
+        <script src="../front/javascript/cadastro.js"></script>
+    </body>
 </html>
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/front/css/cadastro.css">
-        <title>Cadastro</title>
-    </head>
-<body>
-    <header>
-    </header>
-    <main>
-        <div class="registro">
-            <img class="logoLogin" src="/img/logo.png" alt="">
-            <h1> Crie sua conta </h1>
-            <input type="text" placeholder="Nome" class="nome">
-            <input type="date" placeholder="Data de Nascimento" class="data">
-            <input type="email" placeholder="Email" class="email">
-            <input type="password" placeholder="Senha" class="senha">
-            <input type="text" placeholder="Psicólogo / Usuário" list="faixa" class="tipo_usuario">
-            <button type="button" class="cadastro" id="handleSubmit"> Cadastrar </button>
-                <datalist id="faixa">
-                    <option value="Psicólogo"></option>
-                    <option value="Usuário"></option>
-                </datalist>
-                <p class="façaSeuLogin">Já possui uma conta?<a class="fazerLogin" href="/front/html/login.html">Faça seu login</a></p>
-        </div>
-    </main>
-    <footer>
-       
-    </footer>
-    <script src="/front/javascript/cadastro.js"></script>
-</body>
-</html> -->

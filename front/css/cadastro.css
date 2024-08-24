@@ -1,98 +1,84 @@
-/*  */
-body, html {
+body, h1, p, input, button {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fff;
-    background-image: url('path/to/your/background-image.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-color: #f7f7f7;
+    color: #333;
 }
 
-/*  */
-.container {
-    text-align: center;
-}
-
-/*  */
-.content {
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
+    background-color: #fff;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/*  */
-h1 { 
-    /* adiciona cor */
-    color: #92e4eb; 
-    /*  */
+.registro {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
     font-size: 1.5rem;
-    /*  */
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
+    color: #007BFF;
 }
 
-/*  */
-.form-group {
-    /*  */
-    margin-bottom: 15px;
-    /*  */
-    text-align: left;
-}
-
-/*  */
-label {
-    /*  */
-    display: block;
-    /*  */
-    margin-bottom: 5px;
-    /*  */
-    /* font-weight: ;  */
-}
-
-/*  */
-input {
-    width: 90%;
+input[type="nome"], input[type="email"], input[type="senha"] {
+    width: 80%;
     padding: 10px;
-    font-size: 1rem;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 4px;
+    font-size: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/*  */
-.btn {
-    background-color: #92e4eb;
-    color: white;
+.cadastro {
+    width: 80%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
     border: none;
-    padding: 10px 20px;
+    border-radius: 4px;
     font-size: 1rem;
     cursor: pointer;
     margin-top: 10px;
-    border-radius: 5px;
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/*  */
-.register-link {
-    color: #92e4eb;
-    text-decoration: none;
+.cadastro:hover {
+    background-color: #0056b3;
+}
+
+.façaseulogin {
+    margin-top: 20px;
     font-size: 0.9rem;
+    color: #666;
 }
 
+.façaseulogin a {
+    color: #007BFF;
+    text-decoration: none;
+}
 
-/*  */
-.register-link:hover {
+.façaseulogin a:hover {
     text-decoration: underline;
-}
-
-/*  */
-p {
-    margin: 10px 0 0;
 }

@@ -1,68 +1,113 @@
-/*  */
-body, html {
+body, h1, p, a {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
     background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/*  */
-.container {
-    text-align: center;
+.logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 150px;
 }
 
-/*  */
-.content {
-    max-width: 300px;
-    margin: 0 auto;
-}
-
-/*  */
 h1 {
-    color: #0B78D0;
+    text-align: center;
     font-size: 1.5rem;
     margin-bottom: 20px;
+    color: #007BFF;
 }
 
-/*  */
-.logo {
+input[type="nome"], input[type="senha"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.cadastro {
     width: 100%;
-    height: auto;
-    max-width: 200px;
-    margin-bottom: 20px;
-}
-
-/*  */
-.buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* borda */
-.btn {
-    background-color: #0B78D0;
-    color: white;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
     border: none;
-    padding: 10px 20px;
+    border-radius: 4px;
     font-size: 1rem;
     cursor: pointer;
-    margin-bottom: 10px;
-    border-radius: 5px;
+    margin-top: 10px;
 }
 
-/*  */
-.register-link {
-    color: #0B78D0;
-    text-decoration: none;
+.cadastro:hover {
+    background-color: #0056b3;
+}
+
+.esqueciminhasenha {
+    display: block;
+    text-align: right;
+    margin-bottom: 15px;
     font-size: 0.9rem;
+    color: #007BFF;
+    text-decoration: none;
 }
 
-/*  */
-.register-link:hover {
+.esqueciminhasenha:hover {
+    text-decoration: underline;
+}
+
+.ou {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.ou::before,
+.ou::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0 10px;
+}
+
+.texto {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.Façaseucadastro {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+.fazercadastro {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.fazercadastro:hover {
     text-decoration: underline;
 }
